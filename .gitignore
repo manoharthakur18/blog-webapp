@@ -1,0 +1,41 @@
+# Root-level ignores
+.env
+.env.*
+.DS_Store
+*.log
+*.sqlite3
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+
+#########################
+# Backend: FastAPI
+#########################
+/backend/env/
+backend/__pycache__/
+/backend/.env
+/backend/*.db
+/backend/*.sqlite3
+
+#########################
+# Frontend: Next.js
+#########################
+/frontend/.next/
+/frontend/node_modules/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.production
+/frontend/package-lock.json
+/frontend/yarn.lock
+/frontend/out/
