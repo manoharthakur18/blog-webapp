@@ -1,6 +1,7 @@
 
-````md
 # 📰 Fullstack Blog Platform – FastAPI + Next.js
+
+````md
 
 A Blog app built with:
 
