@@ -33,7 +33,7 @@ export default function DashboardPage() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const fetchedPosts = await fetchPosts()
+        const fetchedPosts = await fetchPosts() || []
 
         const formattedPosts = fetchedPosts.map((post: Post) => ({
           ...post,
